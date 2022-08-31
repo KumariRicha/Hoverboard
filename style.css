@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;  /* this is done so that if we apply padding or border on any element its Actual Width isnot affected */
+}
+body{
+    background-color: #111;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center; /*CENTERS  HORIZONTALLY it needs width*/
+    justify-content: center; /*CENTERS  VERTICALLY its needs height  min-height*/
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 500px;
+}
+.square{
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 2s ease;
+}
+.square:hover{
+transition-duration: 0s;
+}
