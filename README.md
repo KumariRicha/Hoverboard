@@ -1,0 +1,2 @@
+# Hoverboard
+In this project, I have created a big square board with lots of tiny square boxes on it and are going to colour those small square boxes by hovering over them. It has a simple background big box in the middle. The user has to hover the mouse over the box and it will display a random color.  It has a very cool user interface that is easy to interact with. Also easy to use without difficulty.
